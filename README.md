@@ -16,7 +16,6 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm test`
-![PROD2](https://user-images.githubusercontent.com/56237420/147786800-a299ee4b-696e-491c-8e2d-24094c94a8df.gif)
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -41,5 +40,6 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 ### HAMBURGUERIA RESILIENTE 
 ![HAMBURGUERIA - INICIO - Opera 2021-12-30 13-53-54_Trim](https://user-images.githubusercontent.com/56237420/147785359-796269c3-4bbe-4a96-b329-36ddecf7f676.gif)
+![PROD2](https://user-images.githubusercontent.com/56237420/147786800-a299ee4b-696e-491c-8e2d-24094c94a8df.gif) 
 
 
