@@ -1,0 +1,44 @@
+.avatarArea{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.contactAvatar {
+    // height: 400px;
+    // width: 400px;
+    gap: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+
+    
+  
+    img {
+        height: 200px;
+        border-radius: 100px;
+    }
+    h2 {
+        margin-left: 80px;
+    }
+   
+    
+}
+
+.socialMediaLine {
+    display: flex;
+    // justify-content: left;
+  }
+  
+  .socialMediaLine i {
+    //   display: flex;
+    font-size: 24px;
+    color: #ffd000;
+    margin: 10px 22px;
+    grid-template-columns: 5px 5px 5px;
+    // margin-top: 50px;
+  }
+
+ 
