@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import Helmet from '../components/Helmet'
 import CartItem from '../components/CartItem'
 import Button from '../components/Button'
+import Form from '../components/Form'
 
 import productData from '../assets/fake-data/products'
 import numberWithCommas from '../utils/numberWithCommas'
@@ -29,8 +30,9 @@ const Cart = () => {
     return (
         <Helmet title="CARRINHO">
             <div className="cart">
-                <div className="cart__info">
+                <div lassName="cart__info">
                     <div className="cart__info__txt">
+                        <Form/>
                         <p>
                         Você tem {totalProducts} produtos em seu carrinho de compras.
                         </p>
@@ -40,11 +42,11 @@ const Cart = () => {
                     </div>
                     <div className="cart__info__btn">
                         <Button size="block">
-                                Pedido
+                                Fazer o Pedido
                         </Button>
                         <Link to="/catalog">
                             <Button size="block">
-                             Continue comprando
+                            Continue comprando
                             </Button>
                         </Link>
                         
