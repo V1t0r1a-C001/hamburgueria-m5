@@ -8,9 +8,13 @@ export default function About() {
                     este é o título
                 </h1>
 
-                <p>
+                
+                <div className = "texto">
+                <p className = "texto">
                     este é o 1° parágrafo
                 </p>
+
+                </div>
             </div>
            
         </div>

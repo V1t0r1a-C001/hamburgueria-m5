@@ -6,6 +6,15 @@
     h1 {
         text-align: center;
     }
+
+    .contabout{
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+    }
+
+    .texto{
+        font-size: 12pt;
+    }
 text-align: justify;  
 justify-content: justify;
 }
