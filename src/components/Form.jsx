@@ -10,18 +10,23 @@ export default function Form() {
     const reqCeps = async (cepDigitado) => {
         const response = await fetch(`https://viacep.com.br/ws/${cepDigitado}/json`)
         const json = await response.json()
-        
         setCep(json)
+        
         console.log(cep)
         setLogradouro(cep.logradouro)
         setCidade(cep.localidade)
         
+        if (cep.erro){
+            setLogradouro("")
+            setCidade("")
+        }
         if (cep.localidade != `Niterói`){
             setDisplay("block")
         }
         else{
             setDisplay('none')
         }
+         
     }
 
 
