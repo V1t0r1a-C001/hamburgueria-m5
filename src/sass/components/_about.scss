@@ -11,9 +11,15 @@
         display: grid;
         grid-template-rows: 1fr 2fr;
     }
+    
 
     .texto{
+        width: 100%;
         font-size: 12pt;
+        text-align: center;
+        letter-spacing: 3px;
+        line-height: 55px;
+       
     }
 text-align: justify;  
 justify-content: justify;
