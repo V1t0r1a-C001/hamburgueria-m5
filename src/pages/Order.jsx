@@ -58,6 +58,7 @@ export default function Order() {
                     <th>ID pedido</th>
                     <th>Cliente</th>
                     <th>Pedido</th>
+                    <th>Quantidade</th>
                     <th>Status Pedido</th>
                     <th>Alteração de Status</th>
                     <th>Delete</th>
@@ -69,6 +70,7 @@ export default function Order() {
                       <td>#{o.PEDIDO_ID}</td>
                       <td>{o.CLIENTE}</td>
                       <td>{o.NOME_PRODUTO}</td>
+                      <td>{o.QUANTIDADE}</td>
                       <td>{o.STATUS_PG}</td>
                       <td>
                         <button onClick={()=>changeStatus("Aguardando Pagamento", o.PEDIDO_ID )} className='ap'>Aguardando Pagamento</button>
