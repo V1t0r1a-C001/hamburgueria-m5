@@ -5,7 +5,7 @@ import Button from '../components/Button'
 export default function Cartao() {
 
     const [pg, setPg] = useState("cartaoDebito")
-    const mudaValor = ()=>{
+    const mudaValor = ()=>{    
         setPg(document.querySelector('#pagamento').value)
     }
 
