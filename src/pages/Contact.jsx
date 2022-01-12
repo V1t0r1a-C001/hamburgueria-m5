@@ -33,7 +33,7 @@ export default function Contact() {
         </div>
         <div className="contactAvatar">
           <img
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQEA5BpJNys3Rg/profile-displayphoto-shrink_800_800/0/1640900908589?e=1646870400&v=beta&t=r6aUsmYbTMPXThgviiOgAjTJRsR8QxE4hck6eNROFw0"
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQGdI2iOCKcVfA/profile-displayphoto-shrink_800_800/0/1641682646817?e=1647475200&v=beta&t=4nQ2wbIOniQESo0QkFcXoEutGORKjhq82wk0XhqhAD8"
             alt=""
           />
           <h2>Vitória</h2>
@@ -57,7 +57,7 @@ export default function Contact() {
         </div>
         <div className="contactAvatar">
           <img
-            src="https://media-exp1.licdn.com/dms/image/D4D35AQEo7oe5_tuKnQ/profile-framedphoto-shrink_800_800/0/1639867923841?e=1641330000&v=beta&t=XeVjImQhYU8IVH9iosAoj37ijdpzd3R7wPRd_7Xw8_s"
+            src="https://media-exp1.licdn.com/dms/image/D4D35AQEo7oe5_tuKnQ/profile-framedphoto-shrink_800_800/0/1639867923841?e=1642111200&v=beta&t=Ly4gLaglr41rCm5QaVCWsWGUe9EbjF5GLoTf8vMx4n4"
             alt=""
           />
           <h2>Jean</h2>
