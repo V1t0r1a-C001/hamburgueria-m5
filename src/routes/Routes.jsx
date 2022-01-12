@@ -8,6 +8,7 @@ import Cart from '../pages/Cart'
 import Product from '../pages/Product'
 import Contact from '../pages/Contact'
 import About from '../pages/About'
+import Order from '../pages/Order'
 
 
 const Routes = () => {
@@ -19,6 +20,7 @@ const Routes = () => {
             <Route path='/cart' component={Cart}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/about' component={About}></Route>
+            <Route path='/order' component={Order}></Route>
         </Switch>
     )
 }
