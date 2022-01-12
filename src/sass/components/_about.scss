@@ -10,10 +10,22 @@
     .contabout{
         display: grid;
         grid-template-rows: 1fr 2fr;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+    
 
     .texto{
+
+        width: 100%;
         font-size: 12pt;
+        text-align: center;
+        letter-spacing: 3px;
+        line-height: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        
+       
     }
 text-align: justify;  
 justify-content: justify;
