@@ -93,7 +93,7 @@ const Cart = () => {
     return (
         <Helmet title="CARRINHO">
             <div className="cart">
-                <div lassName="cart__info">
+                <div className="cart__info">
                     <div className="cart__info__txt">
                         <div>
                         <form id='form-entrega' 
