@@ -12,6 +12,7 @@ import Pagamento from '../pages/Pagamento'
 import Order from '../pages/Order'
 
 
+
 const Routes = () => {
     return (
         <Switch>
@@ -22,7 +23,9 @@ const Routes = () => {
             <Route path='/contact' component={Contact}/>
             <Route path='/about' component={About}></Route>
             <Route path='/pagamento' component={Pagamento}></Route>
+
             <Route path='/order' component={Order}></Route>
+
         </Switch>
     )
 }
