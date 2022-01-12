@@ -46,6 +46,7 @@ const Cart = () => {
     let quantidade = []
 
     const pegaEnderecoCompleto = ()=>{
+        console.log("entrei na endereço")
         if (document.querySelector('#complemento') !== null) {
             enderecoCompleto = logradouro+", "+document.querySelector('#complemento').value+", "+bairro+" - "+cidade
             console.log(enderecoCompleto)
@@ -53,6 +54,7 @@ const Cart = () => {
     }
 
     function pegaPedidoQuantidade(){
+        console.log("entrei na pega pedido quantidade")
         const pedidosSelector = document.querySelectorAll(".cart__item__info__name > a")
         pedidos = []
         for (let i = 0; i < pedidosSelector.length; i++) {
@@ -66,7 +68,8 @@ const Cart = () => {
 
     }
 
-    async function enviaPedido (){        
+    async function enviaPedido (){ 
+        console.log("envia pedido")       
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -82,11 +85,12 @@ const Cart = () => {
         const data = await response.json();
         this.setState({ postId: data.id });
     }
-
+    
     const pegaEnvia = ()=>{
         pegaEnderecoCompleto()
         pegaPedidoQuantidade()
         enviaPedido()
+        alert("Escolha a sua forma de pagamento")
         window.location.href = 'pagamento'
     }
 
