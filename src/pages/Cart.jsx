@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 import Helmet from '../components/Helmet'
 import CartItem from '../components/CartItem'
 import Button from '../components/Button'
-// import Form from '../components/Form'
 
 import productData from '../assets/fake-data/products'
 import numberWithCommas from '../utils/numberWithCommas'
@@ -79,7 +78,6 @@ const Cart = () => {
                 quantidade : quantidade 
         })
         };
-        console.log(requestOptions.body)
         const response = await fetch('https://hamburgueria-resiliente.herokuapp.com/pedido', requestOptions);
         const data = await response.json();
         this.setState({ postId: data.id });
