@@ -9,13 +9,6 @@ export default function Cartao() {
         setPg(document.querySelector('#pagamento').value)
     }
 
-    const alteraStatus = ()=>{
-        console.log("entrei na alteraStatus")
-        const id = pegaUltimoID()
-        console.log(id)
-        alteraStatusReq(id.ID)
-    }
-
     function alteraStatusReq(id) {  
         console.log("entrei na alteraStatusReq")   
         const requestOptions = {
@@ -25,17 +18,18 @@ export default function Cartao() {
         };
         fetch(`https://hamburgueria-resiliente.herokuapp.com/pedido/${id}`, requestOptions)
             .then(response => response.json())
-            .then(data => this.setState({ postId: data.id }));
+            // .then(data => this.setState({ postId: data.id }));
     
     }
 
-    async function pegaUltimoID(){
+    async function alteraStatus(){
         console.log("entrei na pegaUltimoId")
         const response = await fetch('https://hamburgueria-resiliente.herokuapp.com/ultimoId');
         const data = await response.json();
         // this.setState({ totalReactPackages: data.total })
-        console.log(data)
-        return data
+        alteraStatusReq(data.pedido[0].ID)
+        alert("Seu pedido foi realizado! por volta de 30 min estaremos entregando seu pedido! Muito obrigado pela preferência!")
+        window.location.href = '/'
     }
 
 
