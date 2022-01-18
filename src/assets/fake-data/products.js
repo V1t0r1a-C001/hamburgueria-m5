@@ -41,7 +41,7 @@ const products = [
         image01: product_01_image_01,
         image02: product_01_image_02,
         categorySlug: "populares",
-        colors: ["white", "black"],
+        colors: ["branco", "black"],
         slug: "populares-lanche1",
         size: ["P", "M", "G"],
         description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
