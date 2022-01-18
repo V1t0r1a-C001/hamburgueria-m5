@@ -6,6 +6,11 @@ import Home from '../pages/Home'
 import Catalog from '../pages/Catalog'
 import Cart from '../pages/Cart'
 import Product from '../pages/Product'
+import Contact from '../pages/Contact'
+import About from '../pages/About'
+import Pagamento from '../pages/Pagamento'
+import Order from '../pages/Order'
+
 
 
 const Routes = () => {
@@ -15,6 +20,12 @@ const Routes = () => {
             <Route path='/catalog/:slug' component={Product}/>
             <Route path='/catalog' component={Catalog}/>
             <Route path='/cart' component={Cart}/>
+            <Route path='/contact' component={Contact}/>
+            <Route path='/about' component={About}></Route>
+            <Route path='/pagamento' component={Pagamento}></Route>
+
+            <Route path='/order' component={Order}></Route>
+
         </Switch>
     )
 }

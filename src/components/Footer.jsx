@@ -13,20 +13,9 @@ const footerAboutLinks = [
     },
     {
         display: "CONTATO",
-        path: "/about"
+        path: "/contact"
     },
-    {
-        display: "TRABALHE CONOSCO",
-        path: "/about"
-    },
-    {
-        display: "NOTICÍAS",
-        path: "/about"
-    },
-    {
-        display: "SEJA UM FRANQUEADO",
-        path: "/about"
-    }
+    
 ]
 
 const footerCustomerLinks = [
