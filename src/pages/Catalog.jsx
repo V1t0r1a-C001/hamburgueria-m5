@@ -6,7 +6,7 @@ import CheckBox from '../components/CheckBox'
 import productData from '../assets/fake-data/products'
 import category from '../assets/fake-data/category'
 import colors from '../assets/fake-data/product-color'
-import size from '../assets/fake-data/product-size'
+
 import Button from '../components/Button'
 import InfinityList from '../components/InfinityList'
 
@@ -15,7 +15,7 @@ const Catalog = () => {
     const initFilter = {
         category: [],
         color: [],
-        size: []
+    
     }
 
     const productList = productData.getAllProducts()
@@ -74,12 +74,12 @@ const Catalog = () => {
                 })
             }
 
-            if (filter.size.length > 0) {
+         {/* if (filter.length > 0) {
                 temp = temp.filter(e => {
                     const check = e.size.find(size => filter.size.includes(size))
                     return check !== undefined
                 })
-            }
+            }*/}
 
             setProducts(temp)
         },
@@ -139,7 +139,7 @@ const Catalog = () => {
                         </div>
                     </div>
 
-                    <div className="catalog__filter__widget">
+                    {/*<div className="catalog__filter__widget">
                         <div className="catalog__filter__widget__title">
                         TAMANHO
                         </div>
@@ -156,7 +156,7 @@ const Catalog = () => {
                                 ))
                             }
                         </div>
-                    </div>
+                        </div>*/}
 
                     <div className="catalog__filter__widget">
                         <div className="catalog__filter__widget__content">

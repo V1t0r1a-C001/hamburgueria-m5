@@ -27,7 +27,7 @@ const ProductViewModal = () => {
                 <ProductView product={product}/>
                 <div className="product-view__modal__content__close">
                     <Button
-                        size="sm"    
+                       
                         onClick={() => dispatch(remove())}
                     >
                         FECHAR

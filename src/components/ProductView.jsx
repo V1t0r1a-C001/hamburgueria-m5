@@ -25,7 +25,7 @@ const ProductView = props => {
         categorySlug: "",
         colors: [],
         slug: "",
-        size: [],
+    
         description: ""
     }
 
@@ -35,7 +35,7 @@ const ProductView = props => {
 
     const [color, setColor] = useState(undefined)
 
-    const [size, setSize] = useState(undefined)
+    /*const [size, setSize] = useState(undefined)*/
 
     const [quantity, setQuantity] = useState(1)
 
@@ -51,7 +51,7 @@ const ProductView = props => {
         setPreviewImg(product.image01)
         setQuantity(1)
         setColor(undefined)
-        setSize(undefined)
+        /*setSize(undefined)*/
     }, [product])
 
     const check = () => {
@@ -60,11 +60,7 @@ const ProductView = props => {
             return false
         }
 
-        if (size === undefined) {
-            alert('ESCOLHA O TAMANHO!')
-            return false
-        }
-
+    
         return true
     }
 
@@ -73,7 +69,6 @@ const ProductView = props => {
             let newItem = {
                 slug: product.slug,
                 color: color,
-                size: size,
                 price: product.price,
                 quantity: quantity
             }
@@ -90,7 +85,7 @@ const ProductView = props => {
             let newItem = {
                 slug: product.slug,
                 color: color,
-                size: size,
+            
                 price: product.price,
                 quantity: quantity
             }
@@ -152,7 +147,7 @@ const ProductView = props => {
                         }
                     </div>
                 </div>
-                <div className="product__info__item">
+                {/*<div className="product__info__item">
                     <div className="product__info__item__title">
                         TAMANHO
                     </div>
@@ -163,11 +158,11 @@ const ProductView = props => {
                                     <span className="product__info__item__list__item__size">
                                         {item}
                                     </span>
-                                </div>
+                            </div>
                             ))
                         }
                     </div>
-                </div>
+                    </div>*/}
                 <div className="product__info__item">
                     <div className="product__info__item__title">
                         QUANTIDADE

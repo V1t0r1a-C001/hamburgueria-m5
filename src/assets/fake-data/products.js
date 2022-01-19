@@ -43,7 +43,7 @@ const products = [
         categorySlug: "populares",
         colors: ["branco", "black"],
         slug: "populares-lanche1",
-        size: ["P", "M", "G"],
+        /*size: ["P", "M", "G"],*/
         description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -54,7 +54,7 @@ const products = [
         categorySlug: "maiscaros",
         colors: ["white", "pink", "black"],
         slug: "maiscaros-lanche2",
-        size: ["P", "M"],
+        /*size: ["P", "M"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -65,7 +65,7 @@ const products = [
         categorySlug: "populares",
         colors: ["white", "pink", "black"],
         slug: "populares-lanche3",
-        size: ["M"],
+        /*size: ["M"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -76,7 +76,7 @@ const products = [
         categorySlug: "populares",
         colors: ["white", "pink", "black"],
         slug: "populares-lanche4",
-        size: ["G"],
+        /*size: ["G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -87,7 +87,7 @@ const products = [
         categorySlug: "populares",
         colors: ["white", "pink", "black"],
         slug: "populares-lanche5",
-        size: ["P", "M", "G"],
+        /*size: ["P", "M", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -98,7 +98,7 @@ const products = [
         categorySlug: "populares",
         colors: ["white", "pink", "black"],
         slug: "populares-lanche6",
-        size: ["P", "M", "G"],
+        /*size: ["P", "M", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -109,7 +109,7 @@ const products = [
         categorySlug: "maisbaratos",
         colors: ["white", "pink", "black"],
         slug: "maisbaratos-lanche7",
-        size: ["P", "G"],
+        /*size: ["P", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -120,7 +120,7 @@ const products = [
         categorySlug: "maisbaratos",
         colors: ["white", "pink", "black"],
         slug: "maisbaratos-lanche8",
-        size: ["P", "M", "G"],
+        /*size: ["P", "M", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -131,7 +131,7 @@ const products = [
         categorySlug: "maisbaratos",
         colors: ["white", "pink", "black"],
         slug: "maisbaratos-lanche9",
-        size: ["M"],
+        /*size: ["M"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -142,7 +142,7 @@ const products = [
         categorySlug: "maisbaratos",
         colors: ["white", "pink", "black"],
         slug: "maisbaratos-lanche10",
-        size: ["P"],
+        /*size: ["P"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -153,7 +153,7 @@ const products = [
         categorySlug: "maisbaratos",
         colors: ["white", "pink", "black"],
         slug: "maisbaratos-lanche11",
-        size: ["P", "M", "G"],
+        /*size: ["P", "M", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -164,7 +164,7 @@ const products = [
         categorySlug: "maisbaratos",
         colors: ["white", "pink", "black"],
         slug: "maisbaratos-lanche12",
-        size: ["P", "M", "G"],
+        /*size: ["P", "M", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -175,7 +175,7 @@ const products = [
         categorySlug: "populares",
         colors: ["white", "pink", "black"],
         slug: "populares-lanche13",
-        size: ["P", "M", "G"],
+        /*size: ["P", "M", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -186,7 +186,7 @@ const products = [
         categorySlug: "populares",
         colors: ["white", "pink", "black"],
         slug: "populares-lanche14",
-        size: ["P", "M"],
+        /*size: ["P", "M"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -197,7 +197,7 @@ const products = [
         categorySlug: "populares",
         colors: ["white", "pink", "black"],
         slug: "populares-lanche15",
-        size: ["G"],
+        /*size: ["G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -208,7 +208,7 @@ const products = [
         categorySlug: "maiscaros",
         colors: ["white", "red", "black"],
         slug: "maiscaros-lanche16",
-        size: ["M", "G"],
+        /*size: ["M", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     {
@@ -219,7 +219,7 @@ const products = [
         categorySlug: "maisbaratos",
         colors: ["white", "pink", "black"],
         slug: "maisbaratos-lanche17",
-        size: ["P", "M", "G"],
+        /*size: ["P", "M", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"    },
     {
         title: "LANCHE 18",
@@ -229,7 +229,7 @@ const products = [
         categorySlug: "maiscaros",
         colors: ["white", "pink", "black"],
         slug: "maiscaros-lanche18",
-        size: ["P", "M", "G"],
+        /*size: ["P", "M", "G"],*/
         description: "boriipsun Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...!"
     },
     // 18 LANCHES
