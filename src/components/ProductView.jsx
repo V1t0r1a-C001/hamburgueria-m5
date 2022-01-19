@@ -147,22 +147,6 @@ const ProductView = props => {
                         }
                     </div>
                 </div>
-                {/*<div className="product__info__item">
-                    <div className="product__info__item__title">
-                        TAMANHO
-                    </div>
-                    <div className="product__info__item__list">
-                        {
-                            product.size.map((item, index) => (
-                                <div key={index} className={`product__info__item__list__item ${size === item ? 'active' : ''}`} onClick={() => setSize(item)}>
-                                    <span className="product__info__item__list__item__size">
-                                        {item}
-                                    </span>
-                            </div>
-                            ))
-                        }
-                    </div>
-                    </div>*/}
                 <div className="product__info__item">
                     <div className="product__info__item__title">
                         QUANTIDADE
